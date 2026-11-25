@@ -13,14 +13,14 @@ class Bhwide(MakefilePackage):
 
     bhwide_version = "1.08"
     homepage = "https://placzek.web.cern.ch/bhwide/"
-    url = f"https://github.com/KrakowHEPSoft/BHWIDE/archive/refs/tags/{bhwide_version}.tar.gz"
+    url = f"https://github.com/KrakowHEPSoft/BHWIDE/archive/refs/tags/v{bhwide_version}.tar.gz"
     git = "https://github.com/KrakowHEPSoft/BHWIDE.git"
 
     tags = ["hep"]
 
     version(
         bhwide_version,
-        sha256="10b34665c935208d1dad72a8c5698d3029212e1bd260b5e038fa6e7764a1b346",
+        sha256="91fa616091fd38a77eb0bf0f96b60e0e1d0ca15dd6d160099fbeaf61a061cb95",
     )
 
     patch(f"bhwide-{bhwide_version}-minimal.patch", level=0)
