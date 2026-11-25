@@ -13,8 +13,8 @@ class Bhwide(MakefilePackage):
 
     bhwide_version = "1.08"
     homepage = "https://placzek.web.cern.ch/bhwide/"
-    url = f"https://github.com/ktht/bhwide/archive/refs/tags/{bhwide_version}.tar.gz"
-    git = "https://github.com/ktht/bhwide.git" # unofficial copy
+    url = f"https://github.com/KrakowHEPSoft/BHWIDE/archive/refs/tags/{bhwide_version}.tar.gz"
+    git = "https://github.com/KrakowHEPSoft/BHWIDE.git"
 
     tags = ["hep"]
 
